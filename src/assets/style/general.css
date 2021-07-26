@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f7f7f7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.app__layout--area{
+  display: flex;
+  justify-content: center;
+}
+
+.layout-wrapper{
+  margin: 20px 0;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 1000px;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
